@@ -1,0 +1,8 @@
+Origin: iKlassika Repo
+Label: iKlassika
+Suite: stable
+Version: 1.0.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Официальный репозиторий iKlassika на Github
