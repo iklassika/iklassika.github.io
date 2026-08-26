@@ -1,10 +1,10 @@
 Package: ru.iklassika.store
-Name: Название Твика
-Version: 1.0.0
+Name: iKlassika
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Russian AppStore for iOS 6
-Maintainer: iklassika
-Author: iklassika
-Section: Tweaks
+Description: Legacy iOS application store for iOS 6
+Maintainer: iKlassika
+Author: iKlassika
+Section: Applications
 Filename: debs/ru.iklassika.store.deb
 Size: 1673778
