@@ -8,4 +8,7 @@ Author: iKlassika
 Section: Applications
 Filename: debs/ru.iklassika.store.deb
 Size: 1673778
-Icon: https://iklassika.github.io/debs/ru.iklassika.store.png
+MD5sum: ae52a273e54b33fe9cd1cc8c25efc9d5
+SHA1: 81c926763a50aaa22806ace8809d3ac6ef3a759b
+SHA256: b6fac31ffd212a3a5c881d1fb0d65658bbbfdea62b1dba6782d73f5c74ac9981
+Icon: http://iklassika.github.io/debs/ru.iklassika.store.png

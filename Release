@@ -6,3 +6,15 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Официальный репозиторий iKlassika на Github
+MD5Sum:
+ 1b952264b7a4cd1ff0859ae718235e44 472 Packages
+ 9c56112f00a49cbdbab024ee2801c301 330 Packages.gz
+ feb41f43af646ec8525eba5b977abe87 349 Packages.bz2
+SHA1:
+ 0673bcdc02215d6ab997445ca4f6c42a64a08945 472 Packages
+ 9dffca4d30db9e479ec10e97d36049ac73a1a978 330 Packages.gz
+ e42a507c73fd101ff7786d24698c44c119ea9fe6 349 Packages.bz2
+SHA256:
+ 3e6478fc8bf6ba730a7f2832f2fd6809d1cef2df48976540c173e82afad9fe59 472 Packages
+ 6d6569fe787eb80d4c0c2a4b11232a9d2ee3f19dffc9818695e12eab5b8b0ab3 330 Packages.gz
+ a82a57a85928278c9ae3671a516b65be78d7560989f98c3b952ab25069b566e4 349 Packages.bz2
