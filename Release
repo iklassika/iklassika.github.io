@@ -7,14 +7,14 @@ Architectures: iphoneos-arm
 Components: main
 Description: Официальный репозиторий iKlassika на Github
 MD5Sum:
- a5bdbe0b49fb35be011a297079b8b4d2 472 Packages
- 36ebf36cc042507e84c5415a1a00592e 329 Packages.gz
- 89434e9ba785023747381ba08d17071a 355 Packages.bz2
+ b4d0128c04f48d15f1e24bf4153d183e 472 Packages
+ f2a4c679b684b3eab4e0c6aaebf25b2f 329 Packages.gz
+ faa1c152740544804dfb7c1946709b2f 352 Packages.bz2
 SHA1:
- aff3a2af5d8f128af417abfc8e687ff713013b81 472 Packages
- 1dc9e1b69578703efb80f5b99d2f729a78c353ad 329 Packages.gz
- 0302789531fab6801164fde464e3ed7f33b2689e 355 Packages.bz2
+ 65aa76ee1e48e03f5fadeab664ffd04f9306fa2b 472 Packages
+ dd0788c1e21b28e6b8889e4ef3eaf69a257ce7f6 329 Packages.gz
+ 011c1a626dbf526c6fee6cbcccc669990dbc243a 352 Packages.bz2
 SHA256:
- 0d0d3e87128cef81ea345456d44479fe6afc91906ed41f0a69527b0782364df7 472 Packages
- 96e55ecaaae32f3807991491546385fd362b3a58464ac0b2c31294a357848b18 329 Packages.gz
- 77e3cca6816936d6b834f9d1b14b9ba126cdb2fce548e18fb3a9caa29480b8eb 355 Packages.bz2
+ 791d3086e04a7d41556108dd693a81db06d9b666e96ec7419e4578e1dd2087f7 472 Packages
+ 07a78630c9fecfad30e1f1da42b543d7ceaebe41c70a09053d97e7adf0e9e173 329 Packages.gz
+ e8e91d1bbdaa38d1cdbfdc284ab9dbaf511859136865386bc7ac3ec7fa00e580 352 Packages.bz2
