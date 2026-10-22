@@ -1,14 +1,15 @@
 Package: ru.iklassika.store
-Name: iKlassika
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
-Description: Legacy iOS application store for iOS 6
 Maintainer: iKlassika
-Author: iKlassika
-Section: Applications
+Installed-Size: 3708
 Filename: debs/ru.iklassika.store.deb
-Size: 1675232
-MD5sum: cd56cb1148c4b873e5059cfeedee646f
-SHA1: 3dc5e2b43a7fc2270d7c4b899faa67dea48ee01d
-SHA256: b52dce461aa91cca1a478aa602e1be8512729b05550256c9bd2f29e586760401
-Icon: http://iklassika.github.io/debs/ru.iklassika.store.png
+Size: 1709024
+MD5sum: b72d0be48e54ec07533fc7be9d7fcf4a
+SHA1: 8e3c970390586a2398615aafb6d8031cbb4fd55a
+SHA256: e41855ce0ba6d4feadbc6e5c8ca32e9bcb2c3c8fee99b36686b0042338990851
+Section: Applications
+Description: Legacy iOS application store for iOS 6
+Author: iKlassika
+Name: iKlassika
+
