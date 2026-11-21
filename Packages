@@ -3,7 +3,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: iKlassika
 Installed-Size: 3708
-Filename: debs/ru.iklassika.store.deb
+Filename: debs/ru.iklassika.client.deb
 Size: 1709024
 MD5sum: b72d0be48e54ec07533fc7be9d7fcf4a
 SHA1: 8e3c970390586a2398615aafb6d8031cbb4fd55a
