@@ -3,22 +3,27 @@ Label: iKlassika
 Suite: stable
 Version: 2.0.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Официальный репозиторий iKlassika на Github
-Date: Sat, 21 Nov 2026 18:33:41 +0000
+Date: Sat, 21 Nov 2026 18:59:30 +0000
 MD5Sum:
- d35bb6d59ccbbf7d1a88b841a21846a6              452 Packages
- edbd5ca2875d432a19f22f455fa61c46              329 Packages.gz
- 199cfe3fc68148ac62e45449266fd332              372 Packages.bz2
- c9eb13bde1128102bb580b5dfc227b24              408 Packages.xz
+ 6a02c6673a5058957fe398e04ea11be4 589 Packages
+ 4cd4f3e42a759b0eb0a57f96447e4704 414 Packages.gz
+ 56033967a8fe421d08ed6713e1452e06 443 Packages.bz2
+ 7ef0aad4ec5a09b77f44a21ee8f31d71 492 Packages.xz
 SHA1:
- f4700102cfa3d04d720d25196bf858bd1b682687              452 Packages
- b9f140dd3eded5be4a35795536e000059773c7bb              329 Packages.gz
- 59c652162c0b146a106904619311ac5797fec00c              372 Packages.bz2
- 52be317ed29cefffa19a61f70fee4935430b3443              408 Packages.xz
+ c297c94e24aacce08af3f6d7c7939cdcb61f933d 589 Packages
+ 0e703a242053185ed164995d41bae97767675f8b 414 Packages.gz
+ 47c3500f25cde5001a11063d8ece38010675f613 443 Packages.bz2
+ e0ca29d9cad250f8d6eebdd903e9074ea202d9f5 492 Packages.xz
 SHA256:
- 762cc376b37a589f7fc643b0bb61799899253b6e094f1d85c966f943496d3dfe              452 Packages
- e03ec4463b7a285d6e3557ad57871e29dcf356286e77e651160f6a4894ac9b4d              329 Packages.gz
- 78f3c6a0f886c6c7e60b4ad8fd07b8bc8fa04ac75ee7d8e5d49c6df310805498              372 Packages.bz2
- cd1b9913096f2dc658aad395cea1905c902acd5ec6d8f8b56497d26dc98f5962              408 Packages.xz
+ 6ba7ae174a125cfc82b4e4766507c219849420e884574d17d5f01afed9109f01 589 Packages
+ 5e641778eb9bffea5fc86f4a8331a087562544ae81164b1ace9fce0fff35338f 414 Packages.gz
+ 925a6d75934013c69252af75d6410c7cda95cc519a61c9cd3973ee289e4f6f4d 443 Packages.bz2
+ 7748470b9f37c547c7021f1b8c4603b5e70f981c7c25d23165b3023910ad9d1e 492 Packages.xz
+SHA512:
+ d912a0995ae30bf8638731eecc4314e42a69534bc352e7c452c995fb0a4f176ea55936c58afe54199f433f86195a05b33218f1ae7a41e0c5b3a35591efed8021 589 Packages
+ 8c7fd0b81cb3a82ba79cb6ff0931f4143b411474a01f003d55fcd62847e4ce0a45c22d04c646a8934739912aa878e5cce9eb457ffc54f88c6158572f5a1455fc 414 Packages.gz
+ af78d33362aa024ddb30bf73508d4e4758c2aaaeb7aef65ad46edfc71adac5cee9395873d145def2894da34e8c47cd1517b49edb5b2e04fd177a7e385e55b6be 443 Packages.bz2
+ 2a1de0ea3e6425f52dee4f01f7ddaebf57ad5ca43b9d7b2451e7699b9ca2a82b5124b3c5ef8ab8e143411ff6ee96874fe626bedabe0c18ebbc8076129f728b17 492 Packages.xz

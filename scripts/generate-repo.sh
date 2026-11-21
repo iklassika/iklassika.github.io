@@ -39,6 +39,7 @@ for deb in "${debs[@]}"; do
     md5=$(md5sum "$deb" | cut -d' ' -f1)
     sha1=$(sha1sum "$deb" | cut -d' ' -f1)
     sha256=$(sha256sum "$deb" | cut -d' ' -f1)
+    sha512=$(sha512sum "$deb" | cut -d' ' -f1)
 
     cat "$tmp_control" >> "$tmp_packages"
     {
@@ -47,6 +48,7 @@ for deb in "${debs[@]}"; do
         printf 'MD5sum: %s\n' "$md5"
         printf 'SHA1: %s\n' "$sha1"
         printf 'SHA256: %s\n' "$sha256"
+        printf 'SHA512: %s\n' "$sha512"
         printf '\n'
     } >> "$tmp_packages"
 done
@@ -63,7 +65,8 @@ xz -9 -c Packages > Packages.xz
 indexes_after="$(snapshot_indexes)"
 if [[ "$indexes_before" == "$indexes_after" ]] \
     && grep -q '^MD5Sum:' Release 2>/dev/null \
-    && grep -q '^SHA256:' Release 2>/dev/null; then
+    && grep -q '^SHA256:' Release 2>/dev/null \
+    && grep -q '^SHA512:' Release 2>/dev/null; then
     echo "Package indexes unchanged; Release left as is."
     exit 0
 fi
@@ -86,16 +89,19 @@ fi
 
 {
     printf 'Date: %s\n' "$(date -Ru)"
-    for algo in MD5Sum SHA1 SHA256; do
+    # saurik's Cydia guide uses exactly one space between hash, size and name.
+    # Keep that canonical form: some Cydia builds split by a single space.
+    for algo in MD5Sum SHA1 SHA256 SHA512; do
         printf '%s:\n' "$algo"
         for file in Packages Packages.gz Packages.bz2 Packages.xz; do
             case "$algo" in
                 MD5Sum) hash=$(md5sum "$file" | cut -d' ' -f1) ;;
                 SHA1)   hash=$(sha1sum "$file" | cut -d' ' -f1) ;;
                 SHA256) hash=$(sha256sum "$file" | cut -d' ' -f1) ;;
+                SHA512) hash=$(sha512sum "$file" | cut -d' ' -f1) ;;
             esac
             size=$(stat -c %s "$file")
-            printf ' %s %16s %s\n' "$hash" "$size" "$file"
+            printf ' %s %s %s\n' "$hash" "$size" "$file"
         done
     done
 } >> "$tmp_release"
