@@ -2,21 +2,14 @@
 
 Этот репозиторий — APT-источник для Cydia/Sileo.
 
-## Автоматическое обновление
+## Обновление метаданных
 
-При каждом push в ветку `main` workflow
-[`.github/workflows/update-repo.yml`](.github/workflows/update-repo.yml)
-запускает [`scripts/generate-repo.sh`](scripts/generate-repo.sh), который:
-
-1. читает все `.deb` из `debs/` и пересобирает `Packages` (включая `Size`, `MD5sum`, `SHA1`, `SHA256` для каждого `.deb`);
-2. пересоздаёт `Packages.gz`, `Packages.bz2`, `Packages.xz`;
-3. обновляет `Release`: добавляет `Date` и контрольные суммы всех индексов (`MD5Sum`, `SHA1`, `SHA256`);
-4. коммитит и запушивает изменения обратно в репозиторий.
-
-Workflow можно также запустить вручную через **Actions → Update Cydia repo metadata → Run workflow**.
-
-Локально генерация делается так:
+После изменения `.deb` в папке `debs/` запустите:
 
 ```bash
 bash scripts/generate-repo.sh
 ```
+
+Скрипт пересоберёт `Packages` (с `Size`, `MD5sum`, `SHA1`, `SHA256` для каждого пакета),
+сжатые индексы `Packages.gz`, `Packages.bz2`, `Packages.xz` и добавит в `Release`
+контрольные суммы всех индексов.
